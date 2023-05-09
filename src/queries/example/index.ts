@@ -8,7 +8,7 @@ export const fetchUser = (id: string): Promise<i.Data> => {
         id,
         name: 'John Doe',
       });
-    }, 1000);
+    }, 50);
   });
 };
 

@@ -1,7 +1,7 @@
 import * as i from 'types';
 
-import { useRouter } from 'hooks';
 import { useGetUser } from 'queries/example';
+import { useRouter } from 'src/services/hooks';
 import PrimeLayout from 'layouts/PrimeLayout';
 
 /**
@@ -25,10 +25,6 @@ const Page: i.NextPageComponent = () => {
       )}
     </>
   );
-};
-
-Page.layout = (page) => {
-  return <PrimeLayout>{page}</PrimeLayout>;
 };
 
 type Queries = {

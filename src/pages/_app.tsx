@@ -11,6 +11,7 @@ import {
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { ThemeProvider } from 'styled-components';
 
+import 'styles/global.css';
 import GlobalStyle from 'styles';
 import theme from 'styles/theme';
 

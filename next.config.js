@@ -39,6 +39,14 @@ const config = (phase, config) => {
     compiler: {
       styledComponents: true,
     },
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'picsum.photos',
+        },
+      ],
+    },
   };
 
   /**
